@@ -6,7 +6,7 @@ def badge_maker(name)
 def batch_badge_creator(names)
  names.map{ |name| badge_maker(name) }
  end
-#should return a list of badge messages
+#should return a array of badge messages
 
 def assign_rooms(speakers)
   new_arr = []
